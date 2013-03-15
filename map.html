@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Cache Viewer</title>
+    <!-- Leaflet -->
+	<link rel="stylesheet" href="http://leafletjs.com/dist/leaflet.css" />
+	<!--[if lte IE 8]><link rel="stylesheet" href="dist/leaflet.ie.css" /><![endif]-->
+	<script type="text/javascript" src="http://leafletjs.com/dist/leaflet.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <style>
+    #map { height: 500px; }
+    </style>
+</head>
+<body>
+<div id="map"></div>
+<script type="text/javascript">
+	$.getJSON(
+            "config.json",
+            function(json) {
+			//alert(json.template);
+	var map = L.map('map').setView([json.initY, json.initX], json.initZoom);
+    L.tileLayer(json.template, {
+        attribution: 'Map data via NaturalEarth 2.0, Tiles produced with Arc2Earth',
+        maxZoom: json.maxZoom
+    }).addTo(map); 
+	});
+
+</script>
+</body>
+</html>
