@@ -1,7 +1,7 @@
 cacheview
 ======
 
-A simple node.js web server application for view local tile caches in Leaflet. This application was developed to assist in visual QA for tile cache production jobs.
+A simple node.js web server application for viewing local tile caches in Leaflet. This application was developed to assist in visual QA for tile cache production jobs.
 
 The application makes use of a configuration file that contains the following parameters
 
