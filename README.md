@@ -14,3 +14,8 @@ maxZoom - highest zoom level number to which the map can zoom
 The "folder" parameter is used by node.js to direct calls to the proper location on the local filesystem. All other parameters are used by Leaflet for map construction.
 
 This application makes use of the mime module determine content type. Without it, the html will not render properly. I was having path resolution issues on my Windows machine so I included mime here. Mime can be retrieved via npm but the current version of static.js looks for it in the same folder. This will be addressed in future updates. 
+
+usage:
+
+1. From command line: node static.js
+2. In browser: http://localhost:8080/map.html
