@@ -1,8 +1,9 @@
 {
-	"folder" : "D:\/Workspace\/data\/tiles",
+	"folder" : "C:\/Workspace\/tiles",
 	"template" : "/NaturalEarth/md/{z}/{x}/{y}.png",
 	"initX" : -76.7855,
 	"initY" : 39.0617,
 	"initZoom" : 5,
-	"maxZoom" : 9
+	"maxZoom" : 9,
+	"port" : 8080
 }
