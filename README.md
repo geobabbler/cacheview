@@ -17,4 +17,4 @@ This application makes use of the mime module determine content type. Without it
 
 usage:
 
-1. From command line: node static.js (the viewer will autmatically load in the default browser)
+1. From command line: node static.js (the viewer will automatically load in the default browser)
