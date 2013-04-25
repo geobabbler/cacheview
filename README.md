@@ -17,5 +17,4 @@ This application makes use of the mime module determine content type. Without it
 
 usage:
 
-1. From command line: node static.js
-2. In browser: http://localhost:8080/content/map.html
+1. From command line: node static.js (the viewer will autmatically load in the default browser)
