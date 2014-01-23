@@ -18,7 +18,3 @@ This application makes use of the mime module determine content type. Without it
 usage:
 
 1. From command line: node static.js (the viewer will automatically load in the default browser)
-
-<img class="statcounter"
-src="http://c.statcounter.com/9561107/0/0cb8abe1/1/"
-alt="hit counter">
