@@ -19,20 +19,8 @@ usage:
 
 1. From command line: node static.js (the viewer will automatically load in the default browser)
 
-<!-- Start of StatCounter Code for Default Guide -->
-<script type="text/javascript">
-var sc_project=9561107; 
-var sc_invisible=1; 
-var sc_security="0cb8abe1"; 
-var scJsHost = (("https:" == document.location.protocol) ?
-"https://secure." : "http://www.");
-document.write("<sc"+"ript type='text/javascript' src='" +
-scJsHost+
-"statcounter.com/counter/counter.js'></"+"script>");
-</script>
-<noscript><div class="statcounter"><a title="hit counter"
+<a title="hit counter"
 href="http://statcounter.com/free-hit-counter/"
 target="_blank"><img class="statcounter"
 src="http://c.statcounter.com/9561107/0/0cb8abe1/1/"
-alt="hit counter"></a></div></noscript>
-<!-- End of StatCounter Code for Default Guide -->
+alt="hit counter"></a>
