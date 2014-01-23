@@ -19,8 +19,6 @@ usage:
 
 1. From command line: node static.js (the viewer will automatically load in the default browser)
 
-<a title="hit counter"
-href="http://statcounter.com/free-hit-counter/"
-target="_blank"><img class="statcounter"
+<img class="statcounter"
 src="http://c.statcounter.com/9561107/0/0cb8abe1/1/"
-alt="hit counter"></a>
+alt="hit counter">
